@@ -1,2 +1,2 @@
 # exercicios_Manzano
-Exercícios em portugol
+Exercícios em portugol e JavaScript;
