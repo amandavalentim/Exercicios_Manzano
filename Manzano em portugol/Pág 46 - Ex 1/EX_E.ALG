@@ -1,0 +1,27 @@
+Algoritmo "Ex_E"
+// Disciplina   : [Lógica de Programação]
+// Professor   : Jailson
+// Descrição   : Apresentar os resultados das potências de 3, variando do expoente 0 até o expoente 15. Deve ser
+//considerado que qualquer número elevado a zero é 1, e elevado a 1 é ele próprio. Observe que
+//neste exercício não pode ser utilizado o operador de exponenciação do portuguol (^).
+// Autor(a)    : Amanda Vitoria Valentim dos Anjos
+// Data atual  : 28/06/2022
+Var
+// Seção de Declarações das variáveis 
+
+   expoente: inteiro
+   potencia: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    enquanto expoente<16 faca
+
+      potencia<-exp(3,expoente)
+
+      escreval("3 ^", expoente," = ", potencia)
+
+      expoente<-expoente+1
+
+   fimenquanto
+
+Fimalgoritmo
