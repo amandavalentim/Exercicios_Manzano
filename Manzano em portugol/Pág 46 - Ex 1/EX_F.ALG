@@ -1,24 +1,25 @@
 Algoritmo "Ex_F"
-// Disciplina   : [Lógica de Programação]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Jailson
-// Descrição   : Elaborar um programa que apresente como resultado o valor de uma potência de uma base
-//qualquer elevada a um expoente qualquer, ou seja, de BE, em que B é o valor da base e E o valor
-//do expoente. Observe que neste exercício não pode ser utilizado o operador de exponenciação do
+// DescriÃ§Ã£o   : Elaborar um programa que apresente como resultado o valor de uma potÃªncia de uma base
+//qualquer elevada a um expoente qualquer, ou seja, de BE, em que B Ã© o valor da base e E o valor
+//do expoente. Observe que neste exercÃ­cio nÃ£o pode ser utilizado o operador de exponenciaÃ§Ã£o do
 //portuguol (^).
 // Autor(a)    : Amanda Vitoria Valentim dos Anjos
 // Data atual  : 28/06/2022
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
    expoenteinicio, base, expoentefim: inteiro
    potencia: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval("Informe a base da exponenciação que deseja: ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreval("Informe a base da exponenciaÃ§Ã£o que deseja: ")
    leia(base)
-   escreval("Agora informe de qual até qual expoente: ")
+   escreval("Agora informe de qual expoente: ")
    leia(expoenteinicio)
+   escreval("Agora, informe atÃ© qual expoente: ")
    leia(expoentefim)
 
    enquanto expoenteinicio<=expoentefim  faca
