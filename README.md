@@ -6,4 +6,4 @@
 
 ###
 
-Exercícios da lista do Manzano em portugol e JavaScript;
+Exercícios da lista do Manzano em portugol, JavaScript e Java.
